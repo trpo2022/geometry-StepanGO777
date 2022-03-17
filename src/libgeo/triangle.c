@@ -5,7 +5,7 @@
 void triangle()
 {
     float a, b, c, p, p1, s;
-    printf("Enter (a, b, c) sides for triangle: ");
+    printf("Enter triangle(a, b, c)");
     scanf(" triangle(%f, %f, %f)", &a, &b, &c);
     if (a > 0 || b > 0 || c > 0) {
         if (a <= b + c && b <= c + a && c <= a + b) {

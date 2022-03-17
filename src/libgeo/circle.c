@@ -5,7 +5,7 @@
 void circle()
 {
     float x, y, r, p, s;
-    printf("Enter (x, y, radius) for circle: ");
+    printf("Enter circle(x, y, r)");
     scanf(" circle(%f, %f, %f)", &x, &y, &r);
     if (r > 0) {
         p = M_PI * r * 2;
